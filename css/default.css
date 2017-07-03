@@ -1,0 +1,245 @@
+p {
+	font-family: "Sans Serif";
+	font-size: 20px;
+	text-align: center;
+/*	color: rgb(250, 255, 250); */
+	color: rgb(5, 10, 5);
+	text-shadow: 2px 2px 3px rgb(60, 60, 60);
+}
+i, em {
+	font-family: "Sans Serif";
+	font-size: 20px;
+	text-align: center;
+/*	color: rgb(250, 255, 250); */
+	color: rgb(5, 10, 5); 
+	text-shadow: 2px 2px 3px rgb(60, 60, 60);
+}
+a {
+	font-family: "Times New Roman";
+	font-size: 20px;
+	text-align: center;
+	color: rgb(0, 0, 170);
+	text-shadow: 2px 2px 3px rgb(60, 60, 60);
+}
+a:hover {
+/*	font-family: "Times New Roman";
+	font-size: 20px;
+	text-align: center;
+*/	color: rgb(0, 0, 220);
+	text-shadow: 2px 2px 5px rgb(40, 40, 40);
+}
+b {
+	font-family: "Sans Serif";
+	font-size: 20px;
+	text-align: center;
+/*	color: rgb(250, 255, 250); */
+	color: rgb(5, 10, 5); 
+	text-shadow: 2px 2px 5px rgb(60, 60, 60);
+}
+li, ul, ol {
+	font-family: "Sans Serif";
+	font-size: 20px;
+	text-align: center;
+/*	color: rgb(250, 255, 250); */
+	color: rgb(5, 10, 5); 
+	text-shadow: 2px 2px 3px rgb(60, 60, 60);
+} 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Sans Serif";
+	text-align: center;
+/*	color: rgb(250, 255, 250); */
+	color: rgb(5, 10, 5); 
+	text-shadow: 2px 2px 3px rgb(60, 60, 60);
+}
+footer {
+	font-family: "Times New Roman";
+	font-size: 12px;
+	text-align: center;
+/*	color: rgb(250, 255, 250); */
+	color: rgb(5, 10, 5); 
+	text-shadow: 2px 2px 3px rgb(60, 60, 60);
+}
+.law {
+	font-family: "Courier New";
+	font-size: 8px;
+	text-align: center;
+/*	color: rgb(255, 255, 255) */
+	color: rgb(0, 0, 0);
+}
+body {
+/**/	background-image: url("/images/black-paper.png");
+	background-repeat: repeat;
+	background-size: 512px;
+	background-attachment: fixed; /*
+	background-color: rgb(90, 90, 90);
+*/	background-color: rgb(90, 90, 90); 
+}
+legend {
+	font-family: "Sans Serif";
+	font-size: 14px;
+	text-align: center;
+	color: rgb(5, 10, 5);
+}
+textarea, input {
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	resize: none;
+	padding: 5px 5px;
+	background-color: rgb(231, 232, 233);
+	border-color: rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-family: "Sans Serif";
+	font-style: normal;
+	text-align: left;
+	color: rgb(0, 0, 0);
+	box-shadow: 1px 1px 2px 2px rgb(80, 80, 80);
+}
+textarea:hover, input:hover, textarea:focus, input:focus {
+	box-shadow: 1px 1px 8px 7px rgb(40, 40, 40);
+}
+table {
+	border-spacing: 30px;
+	border-collapse: separate;
+	padding: 10px 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.nopad {
+	border-spacing: 5px;
+	border-collapse: separate;
+/*	padding: 10px 10px; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button, input[type=submit], input[type=reset] {
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	padding: 1px 30px;
+	font-size: 18px;
+	font-family: "Sans Serif";
+	font-style: normal;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: rgb(0, 0, 0);
+	color: rgb(10, 15, 10);
+	background-color: rgb(150, 150, 150);
+	box-shadow: 0px 0px 3px 1px rgb(60, 60, 60);
+}
+button:hover, input[type=submit]:hover, input[type=reset]:hover {
+/*	font-size: 20px;
+	font-family: "Sans Serif"; 
+	font-style: italic; */
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: rgb(0, 0, 0);
+	cursor: pointer;
+	background-color: rgb(200, 200, 200);
+	box-shadow: 3px 3px 8px 5px rgb(40, 40, 40);
+}
+button:disabled, input[type=submit]:disabled, input[type=reset]:disabled {
+	opacity: 1;
+}
+img, embed, object, iframe {
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	box-shadow: 2px 2px 3px 1px rgb(40, 40, 40);
+}
+img:hover, embed:hover, object:hover, iframe:hover {
+	box-shadow: 3px 3px 8px 8px rgb(60, 60, 60);
+}
+img.none, embed.none, object.none, iframe.none {
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	box-shadow: 0px 0px 0px 0px rgb(40, 40, 40);
+}
+img:hover, embed:hover, object:hover, iframe:hover {
+	box-shadow: 0px 0px 0px 0px rgb(60, 60, 60);
+}
+fieldset {
+	-webkit-transition-duration: 1.3s;
+	transition-duration: 1.3s;
+	border-color: rgb(100, 100, 100);
+	border-width: 2px;
+	border-radius: 10px;
+}
+iframe {
+	width: 95%;
+	height: 600px;
+	text-align: center;
+}
+.lawleft {
+	font-family: "Courier New";
+	font-size: 8px;
+	text-align: left;
+/*	color: rgb(255, 255, 255) */
+	color: rgb(0, 0, 0);
+}
+.left {
+	text-align: left;
+}	
+.sub {
+	text-align: left;
+}
+.urgent {
+	font-size: 40px;
+	color: red;
+}
+.head_urgent {
+	font-size: 50px;
+	color: red;
+}
+.wide {
+	width : 100%;
+}
+.small {
+	font-size: 12px;
+}
+.clickit {
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	background-color: rgb(100, 100, 100);
+	color: rgb(5, 10, 5);
+	border-radius: 6px;
+	box-shadow: 2px 2px 9px 3px rgb(50, 50, 50);
+}
+.clickit:hover {
+	cursor: pointer;
+/*	background-color: rgb(250, 255, 255); */
+	background-color: rgb(160, 160, 160);
+	color: rgb(8, 12, 8);
+	border-radius: 15px;
+	box-shadow: 3px 3px 9px 8px rgb(30, 30, 30);
+}
+.canClick {
+	cursor: pointer;
+}
+.nowBusy {
+	cursor: wait;
+}
+#intro {
+	background-image: url("/images/LunarfinHome.png");
+	min-height: 700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#lockMessage {
+	text-align: right;
+	font-size: 20px;
+}
+.lockedBar {
+	background-color: rgb(70, 70, 70);
+} /**/
+#sep {
+	background-color: rgb(70, 70, 70);
+	color: rgb(70, 70, 70);
+}
+.postarea {
+	background-color: rgb(140, 140, 140);
+}
