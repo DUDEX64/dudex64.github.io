@@ -196,6 +196,9 @@ iframe {
 .wide {
 	width : 100%;
 }
+.freewide {
+	width : 30%;
+}
 .small {
 	font-size: 12px;
 }
