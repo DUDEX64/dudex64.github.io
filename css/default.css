@@ -225,7 +225,6 @@ iframe {
 	cursor: wait;
 }
 #intro {
-	background-image: url("/images/LunarfinHome.png");
 	min-height: 700px;
 	background-attachment: fixed;
 	background-position: center;
