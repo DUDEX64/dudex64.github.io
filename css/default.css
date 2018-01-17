@@ -245,8 +245,8 @@ iframe {
 	background-color: rgb(140, 140, 140);
 }
 .headarea {
-/*	background-color: rgba(180, 180, 180, 0.37);
-	background-image: url("/images/black-paper.png"); */
+	background-color: rgba(180, 180, 180, 0.075);
+/*	background-image: url("/images/black-paper.png"); */
 	background-repeat: repeat;
 	background-size: 512px;
 	background-attachment: fixed;
