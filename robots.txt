@@ -3,3 +3,11 @@ Disallow: /README.md
 Disallow: /LICENSE
 Disallow: /css/
 Disallow: /images/
+
+User-agent: GoogleBot
+User-agent: AdsBot-Google
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /css/
+Disallow: /images/
+SiteMap: https://dudex64.github.io/sitemap.xml
