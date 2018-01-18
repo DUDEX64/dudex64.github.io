@@ -143,6 +143,7 @@ button:hover, input[type=submit]:hover, input[type=reset]:hover {
 button:disabled, input[type=submit]:disabled, input[type=reset]:disabled {
 	opacity: 1;
 }
+/*
 img, embed, object, iframe {
 	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
@@ -159,6 +160,7 @@ img.none, embed.none, object.none, iframe.none {
 img:hover, embed:hover, object:hover, iframe:hover {
 	box-shadow: 0px 0px 0px 0px rgb(60, 60, 60);
 }
+*/
 fieldset {
 	-webkit-transition-duration: 1.3s;
 	transition-duration: 1.3s;
